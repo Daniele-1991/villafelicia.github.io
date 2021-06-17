@@ -1,0 +1,42 @@
+body{
+    height: 5000px;
+} 
+.customlogo{
+    width: 50vh;
+}
+
+.customdiv{
+    height: 130px;
+}
+
+.masthead {
+    height: 75vh;
+    min-height: 500px;
+    background-image: linear-gradient(white -5%, transparent,white 105%), url('img/piscina.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.customtitle{
+    font-size: 70px;
+    font-family: 'Pacifico', sans-serif;
+    
+}
+
+.customcontainer{
+    background-color: rgba(5, 5, 187, 0.6);
+    
+    height: 180px;
+    margin-top: 100px;
+    
+}
+
+.customimg{
+    height: 25vh;
+    width: 100vw;
+}
+
+.customicon{
+    font-size: 50px;
+}
