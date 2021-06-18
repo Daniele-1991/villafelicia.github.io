@@ -40,3 +40,88 @@ body{
 .customicon{
     font-size: 50px;
 }
+
+.bordomenu {
+    position: relative;
+  }
+
+  .bordomenu::after {
+    content: '';
+    width: 80%;
+    height: 2px;
+    background-color: blue;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.4s;
+  }
+
+  .bordomenu:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .bordomenu1 {
+    position: relative;
+  }
+
+  .bordomenu1::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.4s;
+  }
+
+  .bordomenu1:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .custominfo:hover{
+    background-color: blue;
+    
+  }
+  
+  .custominfo:hover h3{
+      color: white;
+      margin-bottom: 0;
+  }
+
+  .arrowScroll svg{
+    animation: arrowAnimation 1.0s infinite ease-in-out;
+    fill: blue;
+    
+  
+  }
+  @keyframes arrowAnimation {
+    0% {
+      transform: translateY(-10px);
+      opacity: 0;
+      
+    }
+    30% {
+      opacity: 1;
+    }
+    60%{
+      opacity: 1;
+    }
+    100%{
+      transform: translateY(10px);
+      opacity: 0;
+      
+    }
+  
+  }
+
+  .frecciagiu{
+    width: 5%; 
+    
+  }
